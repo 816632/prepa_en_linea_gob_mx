@@ -1,0 +1,18 @@
+
+.text{
+	text-align:	center; 
+	vertical-align:	middle;
+}
+
+/*Validacion*/
+.error {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.ok {
+    background-color: yellowgreen;
+	color: white;
+    font-weight: bold;
+}

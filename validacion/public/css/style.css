@@ -1,0 +1,138 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+#navbarNav{
+  font-size: 14px;
+}
+
+.header{
+  background: rgba(124, 44, 130, 0.6);
+  padding: 2em 0;
+}
+
+.header h1{
+  font-weight: 500;
+  font-size: 54px; 
+  text-align: center;
+  color: #fff;
+}
+
+.main{
+  padding: 2em 0;
+}
+
+.btn-home{
+  background-color: #7C2C82;
+  color: #fff;
+}
+.btn-home:hover{
+  border: 1px solid #7C2C82;
+  background-color: #fff;
+  color: #7C2C82;
+}
+.hr{
+  border: 1px solid #813E94;
+  margin: 1em 0;
+}
+#detalle-folio{
+  padding: 2em 0;
+}
+
+#detalle-folio .title{
+  font-size: 24px;
+  color: #8C8C8C;
+}
+#detalle-folio .datos{
+  font-weight: bold;
+  font-size: 24px;
+  color: #CF5F62;
+}
+#detalle-folio .contacto{
+  font-size: 20px;
+}
+
+footer{
+  background: rgba(124, 44, 130, 0.8);
+  color: #fff;
+  font-size: 14px;
+  padding: 10px;
+  text-align: center;
+}
+
+.boton_comunidad {
+    display: block;
+    height: 55px;
+    position: absolute;
+    right: 30px;
+    top: -6px;
+}
+.gobierno{
+  padding: 0 5px;
+}
+.gobierno  a#navbarDropdown {
+    font-size: 15.8px;
+}
+
+@media (max-width: 575.98px) { 
+  .header h1{
+    font-size: 180%;
+  }
+  #detalle-folio .contacto div{
+    font-size: 14px;
+  }
+ }
+
+.main-menu .navbar{
+  
+  padding: 0 20px;
+}
+ .bg-dark {
+    background-color: #3d3d3d!important;
+}
+
+.main-menu .navbar-dark .navbar-nav .nav-link:focus, .main-menu .navbar-dark .navbar-nav .nav-link:hover {
+    color: #70d1cc;
+   border-top: 2px solid #70d1cc;
+}
+
+.main-menu .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.dropdown-item{
+   color: #fff;
+       white-space: normal;
+       font-size: 14px;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+  text-decoration: solid;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #fff;
+    background-color: #7f7f7f;
+    text-decoration: revert;
+}
+
+.footer_gobierno{
+  background-color:#0b231e!important; padding-top:10px; padding-bottom:10px; color: #fff;
+}
+.footer_gobierno a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+.dropdown-menu{
+      border-top: 3px solid #70d1cc;
+}
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	/* .navbar .nav-item:hover .nav-link{} */
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}	
